@@ -1,0 +1,368 @@
+.job-postings {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-bottom: 30px;
+  }
+  
+  .job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .job-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .job-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-item h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .job-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin: 8px 0;
+  }
+  
+  .apply-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #16a085;
+  }
+  
+  @media (max-width: 768px) {
+    .job-item {
+      text-align: center;
+    }
+  }
+  .job-postings {
+    background-color: #ffffff; /* White for clarity */
+    padding: 20px;
+    color: #333;
+  }
+  
+  .job-postings h2 {
+    color: #007bff; /* Use the same blue as the button for consistency */
+  }
+  
+  .job-item {
+    background-color: #f1f1f1; /* Light grey cards */
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .job-item:hover {
+    background-color: #e9e9e9; /* Slightly darker grey on hover */
+  }
+  
+  .apply-button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  .add-job-btn {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-job-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .job-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .job-form input, .job-form textarea, .job-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .post-job-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .post-job-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .apply-now-btn {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .apply-now-btn:hover {
+    background-color: #0b7dda;
+  }
+  
+  .job-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .job-item h3 {
+    margin: 0;
+  }
+  
+  .job-list {
+    margin-top: 20px;
+  }
+  .add-job-btn {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-job-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .job-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .job-form input, .job-form textarea, .job-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .post-job-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .post-job-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .apply-now-btn {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Space between Post Job and Apply Now */
+  }
+  
+  .apply-now-btn:hover {
+    background-color: #0b7dda;
+  }
+  
+  .job-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .job-item h3 {
+    margin: 0;
+  }
+  
+  .job-item p {
+    margin: 5px 0;
+  }
+  
+  .job-list {
+    margin-top: 20px;
+  }
+  .apply-now-btn {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .apply-now-btn:hover {
+    background-color: #0b7dda;
+  }
+  
+  .apply-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .apply-form input, .apply-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .apply-now-btn-submit {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .apply-now-btn-submit:hover {
+    background-color: #45a049;
+  }
+  .apply-now-btn {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .apply-now-btn:hover {
+    background-color: #0b7dda;
+  }
+  
+  .apply-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .apply-form input, .apply-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .apply-now-btn-submit {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .apply-now-btn-submit:hover {
+    background-color: #45a049;
+  }
+  .job-buttons {
+    margin: 20px 0;
+  }
+  
+  .add-job-btn, .apply-now-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .apply-form, .job-form {
+    margin-top: 20px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .post-job-btn, .submit-apply-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cancel-apply-btn {
+    padding: 10px 20px;
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,38 @@
+.alumni-login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #e6f7ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .alumni-login-form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .alumni-login-form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .alumni-login-form button:hover {
+    background: #39526d;
+  }
+  
+  .error {
+    color: rgb(73, 73, 188);
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
